@@ -37,13 +37,13 @@
 }
 
 .nav_link {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  text-align: center;
-  text-decoration:none;
-  color: #fff;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    text-decoration:none;
+    color: #fff;
 }
 
 .num_phone {
@@ -58,18 +58,26 @@
 
 .main {
   font-size: 0;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
 }
 
 .main_conteiner {
   background-color: #141024;
   width: 100%;
-  height: 1080px;
+
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding: 0 15px;
+}
+
+.main_conteiner_side {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  margin-top: 0;
 }
 
 .main_title {
@@ -78,6 +86,7 @@
   font-size: 70px;
   line-height: 160%;
   color: #fff;
+  margin: 0;
 }
 
 .main_about {
@@ -86,13 +95,13 @@
   font-size: 20px;
   line-height: 160%;
   color: #fff;
-  width: 500px;
+  height: 340px;
+  margin: auto 0;
 }
 
 .btn_subscribe {
   font-family: var(--second-family);
   border-radius: 5px;
-  padding: 25px 54px;
   width: 270px;
   height: 79px;
   background: #d52027;
@@ -101,32 +110,26 @@
   line-height: 160%;
   text-align: center;
   color: #fff;
-  padding: 0;
+  border: 0;
+}
+
+.btn_subscribe:hover {
+  cursor: pointer;
 }
 
 .main_img {
   position: relative;
   z-index: 1;
   align-self:flex-end;
+  margin-left: 150px;
 }
 
-.main_img svg {
+.circle {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-}
-
-
-
-.about_conteiner {
-  margin-top: 120px;
-  width: 100%;
-  align-self: center;
-  height: 485px;
-  display: flex;
-  flex-direction: column;
 }
 
 .about_p {
@@ -135,8 +138,6 @@
   font-size: 30px;
   line-height: 160%;
   color: #141024;
-  width: 1100px;
-  align-self: center;
 }
 
 .stat_list {
@@ -167,16 +168,9 @@
   color: rgba(20, 16, 36, 0.7);
 }
 
-
-
 .next_conteiner {
-  margin-top: 120px;
   width: 100%;
-  align-self: center;
   background: #f9f9f9;
-  height: 485px;
-  display: flex;
-  flex-direction: column;
 }
 
 .next_p {
@@ -185,8 +179,6 @@
   font-size: 50px;
   line-height: 160%;
   color: #141024;
-  width: 1100px;
-  align-self: center;
 }
 
 .next_list {
@@ -195,6 +187,7 @@
   justify-content: center;
   flex-direction: row;
   gap: 70px;
+  padding: 0;
 }
 
 .next_item {
@@ -217,34 +210,24 @@
   color: rgba(20, 16, 36, 0.7);
 }
 
-.trener_conteiner {
-  margin-top: 120px;
-  height: 820px;
-  display: flex;
-  flex-direction: column;
-}
-
 .trener_p {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 50px;
   line-height: 160%;
   color: #141024;
-  width: 1100px;
-  align-self: center;
 }
 
 .trener_list {
-  align-self: center;
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: 70px;
+  margin-top: 60px;
 }
 
 .trener_item {
   width: 360px;
-  height: 500px;
 }
 
 .trener_img {
@@ -276,29 +259,19 @@
   text-decoration:none;
 }
 
-.buy_container {
-  margin-top: 120px;
-  display: flex;
-  flex-direction: column;
-  height: 762px;
-}
-
 .buy_p {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 50px;
   line-height: 160%;
   color: #141024;
-  width: 1100px;
-  align-self: center;
 }
 
 .buy_list {
-  align-self: center;
   display: flex;
-  justify-content: center;
   flex-direction: row;
   gap: 70px;
+  height: 480px;
 }
 
 .buy_item {
@@ -308,7 +281,7 @@
   height: 460px;
   display: flex;
   flex-direction: column;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 .buy_name {
@@ -339,7 +312,7 @@ justify-content: space-around;
 }
 
 .buy_btn {
-  margin-left: 41px;
+  margin: 0 auto;
   border-radius: 5px;
   padding: 25px 54px;
   width: 280px;
@@ -349,14 +322,15 @@ justify-content: space-around;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
-  text-align: center;
   color: #fff;
+  border: 0;
+  cursor: pointer;
 }
 
 .buy_item:hover {
   background: #141024;
-  width: 360px;
   height: 500px;
+  margin-top: -20px;
 }
 
 .buy_item:hover .buy_name,
@@ -368,7 +342,6 @@ justify-content: space-around;
 .footer {
   background-color: #141024;
   height: 322px;
-
 }
 
 .footer_list {
@@ -426,3 +399,13 @@ justify-content: space-around;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+
+
+
+
+
+
+
