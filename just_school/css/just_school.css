@@ -19,7 +19,7 @@
   font-size: 0;
 }
 
-.logo {
+.header-conteiner__logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 30px;
@@ -27,7 +27,7 @@
   color: #fff;
 }
 
-.nav_list {
+.nav__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,7 +36,7 @@
   list-style: none;
 }
 
-.nav_link {
+.nav__link {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -46,7 +46,7 @@
   color: #fff;
 }
 
-.num_phone {
+.num__phone {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 30px;
@@ -61,10 +61,9 @@
   margin: 0 auto;
 }
 
-.main_conteiner {
+.main-conteiner {
   background-color: #141024;
   width: 100%;
-
 }
 
 .container {
@@ -74,7 +73,7 @@
   padding: 0 15px;
 }
 
-.main_conteiner_side {
+.main-container-side {
   display: flex;
   flex-direction: row;
   margin-top: 0;
@@ -89,7 +88,7 @@
   margin: 0;
 }
 
-.main_about {
+.main__about {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 20px;
@@ -99,7 +98,7 @@
   margin: auto 0;
 }
 
-.btn_subscribe {
+.main__btn-subscribe {
   font-family: var(--second-family);
   border-radius: 5px;
   width: 270px;
@@ -113,18 +112,18 @@
   border: 0;
 }
 
-.btn_subscribe:hover {
+.main__btn-subscribe:hover {
   cursor: pointer;
 }
 
-.main_img {
+.main__img {
   position: relative;
   z-index: 1;
   align-self:flex-end;
   margin-left: 150px;
 }
 
-.circle {
+.main__img-circle {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -132,7 +131,7 @@
   z-index: -1;
 }
 
-.about_p {
+.about__p {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 30px;
@@ -140,7 +139,7 @@
   color: #141024;
 }
 
-.stat_list {
+.about__stat-list {
   align-self: center;
   display: flex;
   justify-content:center;
@@ -148,11 +147,11 @@
   gap: 70px;
 }
 
-.stat_item {
+.about__stat-item {
   width: 230px;
 }
 
-.about_stat_main {
+.about__stat-main {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 70px;
@@ -160,7 +159,7 @@
   color: #d52027;
 }
 
-.about_stat_side {
+.about__stat-side {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 18px;
@@ -168,12 +167,12 @@
   color: rgba(20, 16, 36, 0.7);
 }
 
-.next_conteiner {
+.next-conteiner {
   width: 100%;
   background: #f9f9f9;
 }
 
-.next_p {
+.next__p {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 50px;
@@ -181,7 +180,7 @@
   color: #141024;
 }
 
-.next_list {
+.next__list {
   align-self: center;
   display: flex;
   justify-content: center;
@@ -190,11 +189,11 @@
   padding: 0;
 }
 
-.next_item {
+.next__item {
   width: 330px;
 }
 
-.next_item_main {
+.next__item-main {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 24px;
@@ -202,7 +201,7 @@
   color: #141024;
 }
 
-.next_item_side {
+.next__item-side {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -210,7 +209,7 @@
   color: rgba(20, 16, 36, 0.7);
 }
 
-.trener_p {
+.trener__p {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 50px;
@@ -218,7 +217,7 @@
   color: #141024;
 }
 
-.trener_list {
+.trener__list {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -226,15 +225,15 @@
   margin-top: 60px;
 }
 
-.trener_item {
+.trener__item {
   width: 360px;
 }
 
-.trener_img {
+.trener__img {
   border-radius: 20px;
 }
 
-.trener_name {
+.trener__name {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 24px;
@@ -242,7 +241,7 @@
   color: #141024;
 }
 
-.trener_text {
+.trener__text {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -250,7 +249,7 @@
   color: rgba(20, 16, 36, 0.7);
 }
 
-.trener_about_url {
+.trener__about-url {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -259,7 +258,7 @@
   text-decoration:none;
 }
 
-.buy_p {
+.buy__p {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 50px;
@@ -267,14 +266,14 @@
   color: #141024;
 }
 
-.buy_list {
+.buy__list {
   display: flex;
   flex-direction: row;
   gap: 70px;
   height: 480px;
 }
 
-.buy_item {
+.buy__item {
   border: 1px solid rgba(20, 16, 36, 0.2);
   border-radius: 20px;
   width: 360px;
@@ -284,7 +283,7 @@
   justify-content: space-around;
 }
 
-.buy_name {
+.buy__name {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 30px;
@@ -293,7 +292,7 @@
   color: #141024;
 }
 
-.buy_price {
+.buy__price {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 50px;
@@ -302,7 +301,7 @@
   color: #141024;
 }
 
-.buy_about {
+.buy__about {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -311,7 +310,7 @@
   color: #141024;
 }
 
-.buy_btn {
+.buy__btn {
   margin: 0 auto;
   border-radius: 5px;
   padding: 25px 54px;
@@ -327,15 +326,15 @@
   cursor: pointer;
 }
 
-.buy_item:hover {
+.buy__item:hover {
   background: #141024;
   height: 500px;
   margin-top: -20px;
 }
 
-.buy_item:hover .buy_name,
-.buy_item:hover .buy_price,
-.buy_item:hover .buy_about {
+.buy__item:hover .buy__name,
+.buy__item:hover .buy__price,
+.buy__item:hover .buy__about {
   color: #fff;
 }
 
@@ -359,14 +358,14 @@
   position: relative;
 }
 
-.input-text {
+.input__text {
   width: 400px;
   height: 200px;
   margin: auto 0;
   z-index: 2;
 }
 
-.input-text h2 {
+.input__text h2 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 36px;
@@ -374,7 +373,7 @@
   color: #fff;
 }
 
-.input-text p {
+.input__text p {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 20px;
@@ -424,7 +423,7 @@ fieldset {
   height: 322px;
 }
 
-.footer_list {
+.footer-list {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -432,13 +431,13 @@ fieldset {
   padding-top: 20px;
 }
 
-.footer_item {
+.footer-list__item {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.footer_about {
+.footer-list__about {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 16px;
@@ -446,7 +445,7 @@ fieldset {
   color: #fff;
 }
 
-.footer_soglashenie {
+.footer-list__soglashenie {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 16px;
@@ -454,14 +453,14 @@ fieldset {
   color: #d52027;
 }
 
-.footer_num_phone {
+.footer-list__num-phone {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 16px;
   color: #d52027;
 }
 
-.footer_mail {
+.footer-list__mail {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 16px;
