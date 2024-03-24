@@ -105,9 +105,13 @@
   cursor: pointer;
 }
 
-.main-section {
+.container {
   width: 1250px;
   margin: 0 auto;
+  margin-top: 120px;
+}
+
+.main-section {
   margin-top: 120px;
   display: flex;
   flex-direction: row;
@@ -296,8 +300,6 @@
 }
 
 .weekly {
-  margin: 0 auto;
-  margin-top: 120px;
   width: 100%;
   height: 873px;
   background: #f1f1f1;
@@ -584,13 +586,10 @@
 }
 
 .top-collection {
-  width: 1247px;
-  height: 896px;
-  margin: 0 auto;
   margin-top: 220px;
 }
 
-.top-collection h2 {
+.top-collection__header {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 45px;
@@ -754,14 +753,7 @@
   height: 37px;
 }
 
-.explore {
-  width: 1248px;
-  height: 1268px;
-  margin: 0 auto;
-  margin-top: 150px;
-}
-
-.explore h2 {
+.explore__header {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 45px;
@@ -813,13 +805,6 @@
 }
 
 .explore-trending {
-  margin-top: 100px;
-}
-
-.unleash {
-  width: 1402px;
-  height: 688px;
-  margin: 0 auto;
   margin-top: 100px;
 }
 
