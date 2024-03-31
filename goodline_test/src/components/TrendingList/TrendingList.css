@@ -1,0 +1,14 @@
+.trending-list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0 auto;
+  height: 482px;
+  width: 1247px;
+  /* overflow: hidden; */
+  white-space: nowrap;
+  justify-content: center;
+}

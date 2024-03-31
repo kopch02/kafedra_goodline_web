@@ -5,12 +5,17 @@ import UnleashLeftContent from './components/UnleashLeftContent/UnleashLeftConte
 import UnleashRightContent from './components/UnleashRightContent/UnleashRightContent';
 import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
+import ExploreTrending from './components/ExploreTrending/ExploreTrending';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       </header>
+
+      <section>
+        <ExploreTrending/>
+      </section>
 
       <section>
         <div class="container">
