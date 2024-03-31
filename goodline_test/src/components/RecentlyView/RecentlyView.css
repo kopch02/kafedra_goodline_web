@@ -1,4 +1,4 @@
-.recently_view {
+.recently__view {
   position: absolute;
   top: 370px;
   border: 1px solid #edf2f7;
@@ -9,14 +9,14 @@
   background: #fff;
 }
 
-.recently_top{
+.recently__top{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   gap: 100px;
 }
 
-.recently_top h3 {
+.recently__top h3 {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 21px;
@@ -26,7 +26,7 @@
 
 }
 
-.recently_list {
+.recently__list {
   padding: 0;
   list-style: none;
   display: flex;
@@ -34,7 +34,7 @@
   gap: 20px;
 }
 
-.recently_list-item {
+.recently__list-item {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -42,18 +42,18 @@
   transition: 0.3s;
 }
 
-.recently_list-item:hover {
+.recently__list-item:hover {
   background: #f1f1f1;
 }
 
-.recently_icon {
+.recently__icon {
   display: flex;
   flex-direction: row;
   gap: 15px;
   position: relative;
 }
 
-.recently_item-img {
+.recently__item-img {
   border: 1.92px solid #fff;
   border-radius: 960px;
   width: 46px;
@@ -61,7 +61,7 @@
   display: block;
 }
 
-.recently_item-number {
+.recently__item-number {
   position: absolute;
   z-index: 1;
   left: 31px;
@@ -79,13 +79,13 @@
   color: #141416;
 }
 
-.recently_item-name {
+.recently__item-name {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.recently_name-span1 {
+.recently__name-span1 {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 15px;
@@ -93,7 +93,7 @@
   color: #141416;
 }
 
-.recently_name-span2 {
+.recently__name-span2 {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
@@ -101,7 +101,7 @@
   color: #64748b;
 }
 
-.recently_item-price-container {
+.recently__item-price-container {
   width: 65px;
   height: 49px;
   display: flex;

@@ -14,7 +14,7 @@
   align-content: center;
 }
 
-.unleash-notification-info {
+.unleash-notification__info {
   width: 227px;
   height: 61px;
   display: flex;
@@ -23,7 +23,7 @@
   margin: auto 0;
 }
 
-.unleash-notification-info-logo {
+.unleash-notification__info-logo {
   width: 64px;
   height: 45px;
   display: flex;
@@ -31,40 +31,40 @@
   align-items: center;
 }
 
-.unleash-notification-avatar {
+.unleash-notification__avatar {
   position: relative;
   width: 45px;
   height: 45px;
   margin-left: 15px;
 }
 
-.unleash-notification-avatar-img {
+.unleash-notification__avatar-img {
   border-radius: 34px;
   width: 39px;
   height: 39px;
   margin-top: 3px;
 }
 
-.unleash-notification-avatar-verified {
+.unleash-notification__avatar-verified {
   position: absolute;
   left: 25px;
 }
 
-.unleash-notification-logo {
+.unleash-notification__logo {
   border-radius: 10px;
   width: 60px;
   height: 60px;
   margin: auto 0;
 }
 
-.unleash-notification-info-name {
+.unleash-notification__info-name {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 13px;
   line-height: 171%;
 }
 
-.unleash-notification-info-text {
+.unleash-notification__info-text {
   width: 151px;
   height: 61px;
   display: flex;
@@ -72,7 +72,7 @@
   margin-left: 12px;
 }
 
-.unleash-notification-info-text span {
+.unleash-notification__info-text span {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 11px;

@@ -3,14 +3,15 @@ import './css/App.css';
 
 import UnleashLeftContent from './components/UnleashLeftContent/UnleashLeftContent';
 import UnleashRightContent from './components/UnleashRightContent/UnleashRightContent';
+import Banner from './components/Banner/Banner';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
       </header>
-      <main>
+
       <section>
         <div class="container">
           <div class="unleash-line"></div>
@@ -20,7 +21,14 @@ function App() {
           </div>
         </div>
       </section>
-      </main>
+
+      <section>
+        <Banner/>
+      </section>
+
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }

@@ -13,14 +13,14 @@
   flex-direction: column;
 }
 
-.best-sellers_top {
+.best-sellers__top {
   display: flex;
   justify-content: space-around;
   gap: 150px;
   margin-top: 26px;
 }
 
-.best-sellers_name {
+.best-sellers__name {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 18px;
@@ -30,7 +30,7 @@
   margin-left: 21px;
 }
 
-.best-sellers_list {
+.best-sellers__list {
   list-style: none;
   padding: 0;
   margin-left: 20px;
@@ -41,14 +41,14 @@
   height: 409px;
 }
 
-.best-sellers_list-item {
+.best-sellers__list-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 55px
 }
 
-.best-sellers_list-item-btn {
+.best-sellers__list-item-btn {
   border: 1.74px solid #e6e8ec;
   border-radius: 7px;
   padding: 6px 13px;
@@ -64,7 +64,7 @@
   margin-top: 14px;
 }
 
-.best-sellers_list-item-number {
+.best-sellers__list-item-number {
   position: absolute;
   z-index: 1;
   left: 31px;
@@ -83,6 +83,6 @@
   align-items: center;
 }
 
-.best-sellers_list-item-number span {
+.best-sellers__list-item-number span {
   margin-left: 8px;
 }
