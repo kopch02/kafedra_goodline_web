@@ -5,7 +5,7 @@ import BestSellers from '../BestSellers/BestSellers';
 
 function UnleashRightContent() {
   return (
-    <div class="unleash-right-content">
+    <div class="unleash_right-content">
               <RecentlyView data={data} />
               <BestSellers data={sellers_data}/>
               <Notification />

@@ -3,31 +3,31 @@ import './ExploreMoreBtn.css'
 
 function UnleashLeftContent() {
   return (
-<div class="unleash-left-content">
+<div class="unleash_left-content">
     <span>Just Unleash -</span>
     <span>Your Inner Collector</span>
-    <ul class="unleash-list">
-      <li class="unleash-list-item">
+    <ul class="unleash_list">
+      <li class="unleash_list-item">
         <img src="img/chek.svg" alt="check"/>
         <span>Best Seller All Around World</span>
       </li>
-      <li class="unleash-list-item">
+      <li class="unleash_list-item">
         <img src="img/chek.svg" alt="check"/>
         <span>$2M+ Transections Every Day</span>
       </li>
-      <li class="unleash-list-item">
+      <li class="unleash_list-item">
         <img src="img/chek.svg" alt="check"/>
         <span>Secure Transactions</span>
       </li>
-      <li class="unleash-list-item">
+      <li class="unleash_list-item">
         <img src="img/chek.svg" alt="check"/>
         <span>Exclusive Collections From Sellers</span>
       </li>
-      <li class="unleash-list-item">
+      <li class="unleash_list-item">
         <img src="img/chek.svg" alt="check"/>
         <span>Easy Buying and Selling</span>
       </li>
-      <li class="unleash-list-item">
+      <li class="unleash_list-itemz">
         <img src="img/chek.svg" alt="check"/>
         <span>Join Our Community</span>
       </li>

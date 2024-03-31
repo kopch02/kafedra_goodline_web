@@ -1,4 +1,4 @@
-.unleash-left-content {
+.unleash_left-content {
   width: 461px;
   height: 535px;
   display: flex;
@@ -7,7 +7,7 @@
   margin-top: 116px;
 }
 
-.unleash-left-content span {
+.unleash_left-content span {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 45px;
@@ -16,7 +16,7 @@
   color: #c5c5c5;
 }
 
-.unleash-list {
+.unleash_list {
   list-style: none;
   padding: 0;
   display: flex;
@@ -24,18 +24,18 @@
   gap: 12px;
 }
 
-.unleash-list-item {
+.unleash_list-item {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.unleash-list-item  img {
+.unleash_list-item  img {
   width: 20px;
   height: 20px;
 }
 
-.unleash-list-item  span {
+.unleash_list-item  span {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;

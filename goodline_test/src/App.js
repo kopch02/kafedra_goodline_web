@@ -1,8 +1,8 @@
 import './css/App.css';
 
 
-import UnleashLeftContent from './compounens/UnleashLeftContent/UnleashLeftContent';
-import UnleashRightContent from './compounens/UnleashRightContent/UnleashRightContent';
+import UnleashLeftContent from './components/UnleashLeftContent/UnleashLeftContent';
+import UnleashRightContent from './components/UnleashRightContent/UnleashRightContent';
 
 function App() {
   return (
